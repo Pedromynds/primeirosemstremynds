@@ -1,0 +1,57 @@
+#pista-de-corrida {
+    background: linear-gradient(180deg, blue 80%, green 85%);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#carrinho {
+    width: 200px;
+    height: 200px;
+}
+
+.carrinho-position {
+    position: absolute;
+    bottom: 800px;
+    width: 200px;
+    left: -200px;
+    height: 200px;
+    animation: carrinho-andante linear 3s infinite;
+}
+
+.nuvens {
+    position: absolute;
+    animation: nuvens-animation linear 10s infinite;
+    right: 0;
+}
+
+#nuvens {
+    width: 600px;
+    height: 300px;
+}
+
+@keyframes carrinho-andante {
+    0% {
+        left: -200px;
+    }
+
+    100% {
+        left: calc(100% + 200px);
+    }
+}
+
+@keyframes nuvens-animation {
+    0% {
+        right: -600px;
+    }
+
+    100% {
+        right: calc(100% + 200px);
+    }
+}

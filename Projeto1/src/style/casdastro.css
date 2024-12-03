@@ -1,0 +1,68 @@
+body {
+    background:linear-gradient(45deg,red,blue);
+}
+
+#contato{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+#contato form{
+    width: 500px;
+    color: white;
+}
+
+.form-text{
+    color: white;
+}
+#planos{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+#planos div{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#sobre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    margin-bottom: 100px;
+}
+
+#carouselExampleDark{
+    border-radius: 16px;
+}
+
+#sobre img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+#rodape-text{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+
+#rodape{
+    height: 100px;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

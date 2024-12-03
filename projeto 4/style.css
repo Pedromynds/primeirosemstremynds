@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+h1,
+h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+label {
+    margin-bottom: 5px;
+    color:green;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid aquamarine;
+    border-radius: 4px;
+
+}
+
+
+button {
+    padding: 4px;
+    background-color: aqua;
+    color: darkolivegreen;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+ background-color: darkgreen;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: darkseagreen;
+    border: 1px solid darkcyan;
+
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid goldenrod;
+}
+
+
+th {
+    background-color: mediumspringgreen;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+tr:nth-child(even) {
+background-color: burlywood;
+
+
+}
+
+td:last-child {
+    display: flex;
+    gap: 5px;
+
+}
+
+
+button.edit,
+button.delete{
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid salmon;
+    color: sandybrown;
+    cursor: pointer;
+    background-color: seagreen;
+    transition: background-color o.2s ease;
+
+}
+
+
+button.edit:hover,
+button.delete:hover {
+    background-color: lawngreen;
+}

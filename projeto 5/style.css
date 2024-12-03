@@ -1,0 +1,52 @@
+body{
+    font-family: arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: relative;
+}
+
+header{
+    background-color: aqua;
+    color: chartreuse;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.search-container{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+input[type="text"]{
+    padding: 0.5rem;
+}
+
+button{
+    background-color: aquamarine;
+    color: greenyellow;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor:pointer;
+}
+
+
+button:hover{
+    background-color: green;
+}
+
+footer{
+    background-color: darkgreen;
+    color:aquamarine;
+    text-align: center;
+    padding: 0.5rem 0;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
